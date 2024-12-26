@@ -1,0 +1,152 @@
+
+body{
+padding: 0;
+margin: 0;
+font-family: "Arial", sans-serif;
+font-size: 14px;
+line-height: 20px;
+background: crimson;
+color: yellow;
+}
+
+  header{
+    color: yellow;
+    padding: 30px;
+  border-bottom: 3px solid yellow ;
+  background: url("E:/0000085662-scaled.jpeg") no-repeat ;
+  background-size: 100% 100%;
+  }
+  #infLogo{
+    display: flex;
+    justify-content: space-between;
+  }
+  #navig{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 3em;
+  }
+  a{
+    color: yellow;
+    padding: 12px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+a:hover{
+  color:gold ;
+
+}
+a:active{
+  color:rgb(255, 255, 255);
+
+}
+ul{
+  list-style: none;
+}
+footer{
+  border-top:3px solid yellow ;  
+  margin-top: 100px;
+  }
+.product-card__button{
+  display: flex;
+  position: relative;
+  top: 30px;
+  display: inline-block;
+  background: yellow;
+  color: crimson;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  border-radius: 3px;
+  border-color: yellow
+}
+.product-card__button:hover{
+  color: crimson;
+  background: gold;
+  transition: all .3s linear;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+}
+
+.product-card__title{
+display: flex;
+justify-content: center;
+}
+.product-card__price{
+display: flex;
+}
+
+.product-card__description{
+  display: flex;
+  width: 450px;
+    font-family: "Georgia", serif; 
+    text-align: center;
+    color: yellow;
+    font-weight: lighter;
+}
+
+.product-card__image{
+  width: 300px;
+  height: 200px;
+
+}
+.product-card__image_2{
+  width: 300px;
+  height: 200px;
+}
+
+.product-card__image_3{
+  width: 300px;
+  height: 200px;
+}
+
+ #sot1 {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+ }
+
+ .product-cardd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ 
+
+ @media (max-width: 450px) {
+  #sot1{
+    display: flex;
+    flex-direction: column;
+  }
+.product-card__description{
+    font-size: smaller;
+    width:350px
+}
+.product-card__button{
+  font-size: smaller;
+  padding: 0.05rem 0.05rem ;
+}
+.product-cardd{
+  margin-top: 50px;
+}
+
+#navig {
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  background-color: beige;
+ 
+  a {
+    color: brown;
+  }
+}
+}

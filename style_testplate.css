@@ -1,0 +1,7 @@
+#roatingImage{
+    transition: transform 0.5s ease;
+  }
+  #roatingImage:hover{
+    transform: rotate(360deg);
+  }
+  
