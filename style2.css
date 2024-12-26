@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background: crimson;
+    text-align: center; 
+    background-image: url("E:/nWtDhoFiRxY.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+.field{
+    clear:both; 
+    text-align:center;
+     line-height:50px;
+
+}
+  h2{
+    color: yellow;
+  }
+  label {
+    float:center; 
+    padding-right:10px;
+    color: yellow;
+    font-size: 18px;
+    text-align:center;
+
+}
+    .main {
+    float:center
+}
+header{
+    color: yellow;
+    padding: 30px;
+}
+
+  footer{
+    position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+    color: yellow;
+  }
+  a{
+    color: yellow;
+    padding: 12px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }  
+  a:hover{
+    color:gold ;
+  }
+  a:active{
+    color:rgb(255, 255, 255);
+  }
+  ul{
+    list-style: none;
+  }
+.container{
+  margin-top: 250px;
+}
+.knopka{
+  position: relative;
+  display: inline-block;
+  background: yellow;
+  color: crimson;
+  text-decoration: none;
+  border-radius: 3px;
+  border-color: yellow;
+}
+.knopka:hover{
+  color: crimson;
+  background: gold;
+  transition: all .3s linear;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+}
+.vvod{
+  background: yellow;
+  color:crimson
+}
